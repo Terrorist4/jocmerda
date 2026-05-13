@@ -6,7 +6,6 @@ public class Habitacio_fosca extends Habitacio {
     private String nom;
     private String descripcio;
     private HashMap<Direccio, Habitacio_fosca> sortides;
-    boolean tiveus = false;
 
 
     public Habitacio_fosca(String nom, String descripcio, Jugador jugador){
@@ -15,7 +14,7 @@ public class Habitacio_fosca extends Habitacio {
     }
 
     public String iluminarHabitacio(Jugador jugador){
-        if (jugador.getItemInventari("Llanterna")){
+        if (jugador.GetIteminventari("Llanterna")){
             return super.toString();
         } else {
             return "---" + "---\n" +
@@ -24,9 +23,4 @@ public class Habitacio_fosca extends Habitacio {
         }
     }
 
-
-
-    public void IluminarHabitacio(){
-
-    };
 }
