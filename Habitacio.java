@@ -47,7 +47,7 @@ public class Habitacio {
                 "Sortides visibles: " + (sortidesList.length() == 0 ? "cap" : sortidesList);
     }
 
-    public void utilitzarItem(Item item) {
-        System.out.println(item.getNom() + " no es pot utilitzar aquí.");
+    public String utilitzarItem(Item item) {
+        return item.getNom() + " no es pot utilitzar aquí.";
     }
 }

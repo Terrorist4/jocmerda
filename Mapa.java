@@ -21,8 +21,8 @@ public class Mapa {
                 "Milers de llibres vells agafen pols. Hi ha una olor dolça."
         );
         HabitacioFosca fosca = new HabitacioFosca(
-                "Fosca",
-                "Tinc po."
+                "Habitació estrella",
+                "Habitació amb una estrella al terra i un pedestal."
         );
         Habitacio oculta = new Habitacio(
                 "Oculta",
